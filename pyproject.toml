@@ -1,0 +1,15 @@
+[tool.poetry]
+name = "personal helper"
+version = "1.1.0"
+description = "A personal assistant program for an address book is typically designed to manage contacts and related information. Key functionalities may include adding, editing, and deleting contacts, searching and sorting, as well as the ability to store other data such as addresses, phone numbers, email addresses, etc."
+authors = ["Natalia Sklyarenko"]
+license = "1"
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "3.8"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
